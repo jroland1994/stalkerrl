@@ -7,9 +7,9 @@ public class Player
         String name;
         String[] skills = new String[skillcount], inventory = new String[6];
         //Initialization class. Initialises beginer variable values for HP, MP, and livign status. Call after cahr creating when staring game:
-        public void init()
+        public void spawn()
             {
-                int maxhealth=strength*8, maxmana = intelligene*2;
+                int maxhealth=strength*8, maxmana = intelligence*2;
                 living = true;
                 health = maxhealth;
                 mana = maxmana;
